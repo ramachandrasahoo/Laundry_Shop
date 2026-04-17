@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: "Google Sans", sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-image: url(./Floating_shirt.jpeg);
+    background-size: cover;
+    background-position: bottom;
+}
+nav {
+    height: 90px;
+    width: 100%;
+    padding: 0 50px 0 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand-name {
+    font-weight: 600;
+}
+.brand-name span {
+    color: #ffff;
+}
+.ri-bubble-chart-line {
+    color: #ffff;
+}
+
+.menu {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu h5 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.application-link {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+.application-link h5 {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.brand-moto {
+    width: 100%;
+    height: 20%;
+    position: relative;
+}
+.adv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adv p {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+.moto-left {
+    width: 300px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+
+.moto-right {
+    width: 300px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+
+.moto-img-left {
+    width: 70px;
+    height: 100px;
+    background-image: url(./img-left.png);
+    background-position: center;
+    background-size: cover;
+}
+.moto-img-right {
+    width: 70px;
+    height: 100px;
+    background-image: url(./img-right.png);        background-position: center;
+    background-size: cover;
+}
+
+.brand-adv {
+    width: 100%;
+    height: 55%;
+    padding: 0 50px 0 50px;
+    position: relative;
+}
+.main-context {
+    width: 30%;
+    height: 100%;
+}
+.main-context h1 {
+    font-size: 60px;
+    letter-spacing: .7px;
+    line-height: 70px;
+    font-weight: 500;
+}
+
+.work-fig {
+    width: 180px;
+    height: 250px;
+    background-color: rgb(236, 241, 245);
+    position: absolute;
+    top: 20%;
+    left: 85%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.work-fig h2 {
+    font-size: 40px;
+    padding: 2px;
+}
+.work-fig p {
+    text-align: center;
+    font-size: 13px;
+}
+
+footer {
+    width: 100%;
+    height: 12%;
+    background-color: #1c2930;
+    padding: 0 50px 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bussiness-digits {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.photo-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo-row img {
+    width: 30px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.photo-row img:nth-child(1) {
+    margin-right: -5px;
+}
+.photo-row img:nth-child(2) {
+    margin-right: -4px;
+}
+.photo-row img:nth-child(3) {
+    margin-right: 5px;
+}
+.photo-row img:nth-child(4) {
+    margin-right: 10px;
+}
+.bussiness-digits h2 {
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.bussiness-digits h2 span {
+    font-size: 40px;
+}
+.book-appointment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.book-appointment h4 {
+    font-size: 12px;
+}
